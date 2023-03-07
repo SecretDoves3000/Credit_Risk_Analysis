@@ -11,4 +11,5 @@ Below we present the balanced accuracy score and classification report for each 
 - Naive Random Oversampling:
   - balanced accuracy score: 0.668
   - classification report. 
+  
   ![](https://raw.githubusercontent.com/SecretDoves3000/Credit_Risk_Analysis/main/images/ROSS.png)
