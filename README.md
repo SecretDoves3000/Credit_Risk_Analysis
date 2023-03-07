@@ -9,37 +9,37 @@ In this analysis we look at a high dimensional data set of loan recipients and r
 Below we present the balanced accuracy score and classification report for each of six different classifications models built using different resampling/decision tree methods. The classification reports are presented as images for clarity; for our comparisons of the models, we focus on the precision (pre) and recall (rec) in each table. The balanced accuracy score computations can be found in the notebooks found in this archive.
 
 - Naive Random Oversampling:
-  - balanced accuracy score: 0.668
-  - classification report. 
+  - balanced accuracy score: 0.651
+  - classification report: 
   
   ![](https://raw.githubusercontent.com/SecretDoves3000/Credit_Risk_Analysis/main/images/ROSS.png)
  
 - SMOTE Oversampling:
   - balanced accuracy score: 0.685
-  - classification report. 
+  - classification report: 
  
-  ![](https://raw.githubusercontent.com/SecretDoves3000/Credit_Risk_Analysis/main/images/ROSS.png)
+  ![](https://raw.githubusercontent.com/SecretDoves3000/Credit_Risk_Analysis/main/images/SMOTESS.png)
   
 - Cluster Centroid Undersampling:
+  - balanced accuracy score: 0.549
+  - classification report: 
+  
+  ![](https://raw.githubusercontent.com/SecretDoves3000/Credit_Risk_Analysis/main/images/CCSS.png)
+  
+- SMOTEEN combination sampling:
+  - balanced accuracy score: 0.657
+  - classification report: 
+  
+  ![](https://raw.githubusercontent.com/SecretDoves3000/Credit_Risk_Analysis/main/images/SMOTENSS.png)
+  
+- Balanced Random Forest Classifier:
   - balanced accuracy score: 0.668
-  - classification report. 
+  - classification report: 
   
-  ![](https://raw.githubusercontent.com/SecretDoves3000/Credit_Risk_Analysis/main/images/ROSS.png)
+  ![](https://raw.githubusercontent.com/SecretDoves3000/Credit_Risk_Analysis/main/images/BRFSS.png)
   
-- Naive Random Oversampling:
-  - balanced accuracy score: 0.668
-  - classification report. 
+- AdaBoost Classifier:
+  - balanced accuracy score: 0.703
+  - classification report: 
   
-  ![](https://raw.githubusercontent.com/SecretDoves3000/Credit_Risk_Analysis/main/images/ROSS.png)
-  
-- Naive Random Oversampling:
-  - balanced accuracy score: 0.668
-  - classification report. 
-  
-  ![](https://raw.githubusercontent.com/SecretDoves3000/Credit_Risk_Analysis/main/images/ROSS.png)
-  
-- Naive Random Oversampling:
-  - balanced accuracy score: 0.668
-  - classification report. 
-  
-  ![](https://raw.githubusercontent.com/SecretDoves3000/Credit_Risk_Analysis/main/images/ROSS.png)
+  ![](https://raw.githubusercontent.com/SecretDoves3000/Credit_Risk_Analysis/main/images/EEABSS.png)
