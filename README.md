@@ -24,7 +24,7 @@ Below we present the balanced accuracy score and classification report for each 
   - balanced accuracy score: 0.549
   - classification report: 
   
-  ![](https://raw.githubusercontent.com/SecretDoves3000/Credit_Risk_Analysis/main/images/CCSS.png)
+  ![](https://raw.githubusercontent.com/SecretDoves3000/Credit_Risk_Analysis/main/images/CCSS_s.png)
   
 - SMOTEEN combination sampling:
   - balanced accuracy score: 0.657
